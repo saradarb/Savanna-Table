@@ -291,9 +291,7 @@ const OrderOnline = () => {
       <div className="order-content">
         <div className="order-header">
           <h1 className="order-title">Order Online</h1>
-          <p className="order-subtitle">
-            Enjoy our authentic African cuisine from the comfort of your home
-          </p>
+          
           {error && (
             <div style={{
               backgroundColor: '#fff3cd',
